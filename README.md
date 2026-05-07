@@ -28,11 +28,12 @@ This repository is **pre-v1.0**. Curriculum content is in active development and
 | Milestone | Target | Status |
 |---|---|---|
 | Repo bootstrap | May 2026 | ✅ |
-| v0.1 outline + activity inventory | Jun 2026 | ⏳ |
-| v0.5 English draft | Jul 2026 | ⏳ |
-| v0.9 bilingual draft | Aug 2026 | ⏳ |
-| **v1.0 release** | **Sept 2026** | ⏳ |
-| First print run | Sept 2026 | ⏳ |
+| v0.1 outline + activity inventory | Jun 2026 | ✅ ([tag](https://github.com/dropout-labs/ai-literacy-packets/releases/tag/v0.1)) |
+| v0.5 English draft | Jul 2026 | ✅ ([tag](https://github.com/dropout-labs/ai-literacy-packets/releases/tag/v0.5)) |
+| v0.9 bilingual draft | Aug 2026 | ✅ ([tag](https://github.com/dropout-labs/ai-literacy-packets/releases/tag/v0.9)) |
+| **v1.0 release** | **Sept 2026** | ✅ ([release + PDFs](https://github.com/dropout-labs/ai-literacy-packets/releases/tag/v1.0)) |
+| First print run | Sept 2026 | 📦 vendor spec ready ([partners/print-spec.md](partners/print-spec.md)) — awaiting first grant funds |
+| v1.1 (illustrations + translator validation + layout) | Nov 2026 | ⏳ |
 
 ## Repo layout
 
