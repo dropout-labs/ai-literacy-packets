@@ -1,0 +1,55 @@
+name: Reprint request
+description: A library, school, district, or sibling org wanting to reprint and distribute packets
+title: "[Reprint] "
+labels: ["reprint", "partner"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        You don't need our permission to reprint — the CC BY-SA 4.0 license is a permanent invitation.
+        This issue helps us track who is reprinting so we can celebrate it and improve future versions based on what partners need.
+
+  - type: input
+    id: org
+    attributes:
+      label: Organization name
+    validations:
+      required: true
+
+  - type: input
+    id: location
+    attributes:
+      label: City, state, country
+    validations:
+      required: true
+
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What kind of organization?
+      options:
+        - Public library
+        - School / district
+        - Family resource center
+        - Boys & Girls Club / YMCA / parish youth
+        - Sibling nonprofit
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: count
+    attributes:
+      label: Approximate number of packets you plan to reprint
+      placeholder: e.g. 200
+
+  - type: textarea
+    id: needs
+    attributes:
+      label: Anything you need from us to make this reprint successful?
+      placeholder: e.g. co-branding template, lower-cost print spec, Spanish-only edition, etc.
+
+  - type: input
+    id: contact
+    attributes:
+      label: Email we can reach you at (optional)

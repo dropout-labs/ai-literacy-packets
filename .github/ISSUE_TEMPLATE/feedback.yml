@@ -1,0 +1,50 @@
+name: Recipient feedback
+description: Feedback from a youth, family member, or educator who used the packet
+title: "[Feedback] "
+labels: ["feedback", "recipient"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for taking the time to share feedback. It directly improves the next version of the packet.
+        You can fill this out in English or Spanish — whichever is most comfortable.
+        Puedes escribir en inglés o español — lo que sea más cómodo.
+
+  - type: dropdown
+    id: role
+    attributes:
+      label: I am a... / Yo soy...
+      options:
+        - Youth (12–18) / Jóven (12–18)
+        - Parent or family member / Padre, madre o familiar
+        - Educator / Educador o educadora
+        - Librarian / Bibliotecario o bibliotecaria
+        - Other / Otro
+    validations:
+      required: true
+
+  - type: input
+    id: city
+    attributes:
+      label: City / Ciudad
+      placeholder: e.g. Santa Maria, Lompoc, Guadalupe
+
+  - type: textarea
+    id: liked
+    attributes:
+      label: What did you like? / ¿Qué te gustó?
+
+  - type: textarea
+    id: confused
+    attributes:
+      label: What was confusing or didn't work? / ¿Qué fue confuso o no funcionó?
+
+  - type: textarea
+    id: more
+    attributes:
+      label: What would you want to see in a future version? / ¿Qué te gustaría ver en una versión futura?
+
+  - type: input
+    id: language
+    attributes:
+      label: Did you read mostly the English pages, the Spanish pages, or both? / ¿Leíste más las páginas en inglés, en español, o ambas?
